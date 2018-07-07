@@ -1,0 +1,13 @@
+<h1>R'leiygh</h1>
+
+<form action="/anythingwewant" method="get">
+    <input type="text" name="title">
+    <button type="submit">Go go go</button>
+</form>
+
+
+<div>
+<% (@cards).each do |cthulu| %> 
+    <div class="card"><%= cthulu.title %></div>
+<% end %>
+</div>

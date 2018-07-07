@@ -1,0 +1,2 @@
+class Cthulu < ApplicationRecord
+end
